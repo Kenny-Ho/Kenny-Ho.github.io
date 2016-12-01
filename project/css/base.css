@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,lable {margin:0; padding:0;}
+fieldset,
+img {
+	border: none;
+}
+
+img,i {
+	display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var,i {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+body {
+	color: #333;
+	-padding: 5px 0;
+	font: 12px/24px "宋体","微软雅黑" , "Arial Narrow", HELVETICA;
+	background: #fff;
+	/* overflow-y:scroll;*/
+	overflow-x: hidden;
+}
+
+a {	
+	font-family: '宋体';
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d32402;
+}
+
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+	clear: both;
+	-overflow: hidden;
+}
+
+#white {
+	color: #fff;
+}
+.clearfix:after{
+	display: block;
+	content: "";
+	height: 0;
+	clear: both;
+}
+
+/*版心*/
+.container{
+	width: 100%;
+}
+/*头部*/
+.container .header{
+	border-bottom: 1px solid rgb(221, 221, 221);
+	background-color: #eee;
+}
+.header .header-content{
+	line-height: 30px;
+	height: 30px;
+}
+/*头部内容*/
+.header .header-content dl{
+	float: right;
+}
+.header .header-content dl dt{
+	-background: transparent url('../img/tline.gif') no-repeat scroll right center;
+	background: url(../img/tline.gif) no-repeat right center;
+	float: left;
+}
+.header .header-content dl dd{
+	position: relative;
+	float: left;
+}
+.header .header-content dl dt a{
+	margin-right: 12px;
+}
+.header .header-content dl dd a{
+	display: inline-block;
+	margin-left: 12px;
+}
+.header .header-content dl dd i{
+	position: absolute;
+	top: 15px;
+	right: 0;
+	float: left;
+	width: 7px;
+	height: 4px;
+	float: right;
+	display: block;
+	background: url(../img/tico.gif) no-repeat 0 0;
+}
+.header .header-content .icon{
+	position: relative;
+	padding-right: 8px;
+}
+/*二级导航*/
+.header .header-content .second-header{
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 80px;
+	background-color: #eee;
+}
+
+.header .header-content .second-header li{
+	-padding: 0 10px;
+}
+.header .header-content .second-header li a{
+	text-align: center;
+}
+
+/*导航*/
+.nav{
+	
+	
+}
+.nav .logo{
+	width: 100%;
+	height: 122px;
+}
+.nav .logo-l,.nav .logo-l ul li,.nav .logo-c,.nav .kuaidi,.nav .logo-c dt,.nav .logo-c dd,
+.nav .logo-c p{
+	float: left;
+}
+.nav .logo .logo-l{
+	width: 393px;	
+}
+.nav .logo .logo-l ul{
+	width: 100%;
+	margin-top: 30px;
+}
+.nav .logo-l ul li+li{
+	width: 120px;
+	height: 26px;
+	margin-top: 21px;
+	margin-left: 10px;
+}
+.nav .logo-l ul li+li img{
+	margin-top: -23px;
+	margin-left: 50px;
+}
+/*中间搜索栏*/
+.nav .logo-c{
+	margin-top: 40px;
+	width: 416px;
+	height: 72px;
+}
+.nav .logo-c input{
+	width: 316px;
+	height: 42px;
+	padding-left: 10px;
+	outline: none;
+	background: url(../img/loss.gif) no-repeat;
+	border: 0;
+}
+.nav .logo-c p{
+	color: #999;
+	width: 393px;
+	line-height: 30px;
+}
+.nav .logo-c p a{
+	color: #999;
+	width: 393px;
+	line-height: 30px;
+}
+.nav .logo-c p a:hover{
+	text-decoration: underline;
+}
+/*快递logo*/
+.nav .kuaidi{
+	margin: 43px 0 0 40px;
+}
+/*购物车*/
+.nav .logo-r{
+	float: right;
+	width: 143px;
+	height: 42px;
+	margin-top: 40px;
+	background: url(../img/logwc.gif);
+}
+.nav .logo-r dl{
+	position: relative;
+}
+.nav .logo-r dl dt{
+	font-size: 14px;
+	line-height: 40px;
+	margin-left: 36px;
+}
+.nav .logo-r dl dd{
+	background: url(../img/logwc.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 18px;
+	top: -6px;
+	line-height: 18px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*导航栏*/
+.nav .nav-item{	
+	height: 44px;
+	background: url(../img/dhh.gif) repeat-x bottom;
+}
+.nav .nav-item dt,.nav .nav-item dd{
+	float: left;
+}
+.nav .nav-item dt{
+	width: 240px;
+	height: 44px;
+	background: url(../img/dhl.gif);
+}
+.nav .nav-item dt a {
+	cursor: default;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+.nav .nav-item dd{	
+	height: 44px;
+}
+.nav .nav-item dd a{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 37px;
+}
+.nav .nav-item dd a:hover{
+	color: #D32402;
+}
+.nav .nav-item .dszb{	
+	padding-left: 35px;
+	background: url(../img/tv.gif) no-repeat left center;
+}
+.nav .nav-item .handle-service{
+	float: right;
+}
+/*弹出菜单*/
+.nav .dropdown-menu{
+	position: relative;
+	-float: left;
+	width: 240px;
+	height: 388px;
+	margin-top: -44px;
+	-margin-bottom: -388px;
+	-background-color: #D32402;
+}
+.nav .dropdown-menu .menu-wrapper{
+	position: absolute;
+	width: 240px;
+	height: 400px;
+	left: 0;
+	top: 126px;
+	margin-top: -122px;
+}
+.nav .dropdown-menu .menu-wrapper .menu-content{
+	width: 240px;
+	height: 400px;
+	margin-top: 40px;
+	background-color: #D32402;
+}
+.nav .dropdown-menu .menu-wrapper .menu-content .menu-title{
+	z-index: 1;
+}
+.nav .dropdown-menu .menu-wrapper .menu-content .menu-title a{
+	display: block;
+	width: 221px;
+	line-height: 34px;
+	font-size: 14px;
+	color: white;
+	padding-left: 19px;
+	cursor: pointer;
+}
+.nav .dropdown-menu .menu-wrapper .menu-content .menu-title a.active{
+	background: url(../img/dhb.gif);
+	text-decoration: underline;
+}
+/*右边部分*/
+.nav .dropdown-menu .menu-drop{
+	position: absolute;
+	top: 44px;
+	left: 240px;
+	width: 714px;
+	height: 415px;
+	border: #a70000 3px solid;
+}
+.nav .dropdown-menu .menu-drop .drop-item {
+	width: 100%;
+	height: 368px;
+	margin: 13px 0 0 10px;
+	background: url(../img/cdl.gif) repeat-y;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-l,
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-c,
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-r {
+	float: left;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-l {
+	width: 298px;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-l li{
+	width: 258px;
+	border-bottom: 1px solid #ddd;
+	margin: 6px 0 0 6px;
+	padding-bottom: 6px;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-l li a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-c {
+	width: 155px;
+	margin-left: 19px;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-c dl {
+	width: 140px;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-c dt {
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-c dd {	
+	width: 100%;
+	margin-top: 10px;	
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-c dd a {
+	display: block;
+	width: 140px;	
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-r {
+	width: 200px;
+	margin-left: 12px;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-r dt {
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-r dd {
+	width: 100%;
+	height: 110px;
+	border: 1px solid #eee;
+	margin-top: 5px;
+}
+.nav .dropdown-menu .menu-drop .drop-item .drop-item-r dd+dd img {
+	width: 200px;
+}
