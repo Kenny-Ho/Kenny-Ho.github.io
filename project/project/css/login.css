@@ -1,0 +1,138 @@
+@charset "utf-8";
+.container .header-wrapper {
+	border-bottom: 3px solid #fc4c65;
+	height: 186px;
+}
+
+/*登录*/
+.container .login {
+	border: 1px solid #666;
+	width: 1000px;
+    margin: 40px auto 20px auto;
+}
+
+.login .login-title {
+	height: 37px;
+    border-bottom: 1px solid #666666;
+    background: #e6e6e6;
+    padding-left: 15px;
+}
+.login-title .title {
+	float: left;
+	line-height: 37px;
+    font-size: 16px;
+    padding-left: 15px;
+    font-size: 16px;  
+    font-weight: bold;
+    color: #444;
+    font-family: "microsoft yahei";
+}
+
+.login .login-content {
+	padding: 15px 40px 10px 24px;
+}
+.login-content .form {
+	float: left;
+	width: 560px;
+}
+.login-content .form .item {
+	padding-top: 15px;
+    line-height: 26px;
+    
+}
+.login-content .form .item .label {
+	float: left;
+	width: 140px;
+    text-align: right;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.login-content .form .item .label .spanAlert {
+	color: #ff1200;
+    padding-right: 4px;
+    font-family: "微软雅黑";
+}
+.login-content .form .item .fl {
+	float: left;
+}
+.login-content .form .item .fl .error {
+	padding-left: 10px;
+	font-family: "微软雅黑";
+	color: red;
+	-display: none;
+}
+.login-content .form .item .fl .text {
+	outline: none;
+	width: 240px;
+    height: 16px;
+    padding: 3px 3px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    font-family: arial,"宋体";
+}
+.login-content .form .item .fl label a {
+	font-family: "微软雅黑";
+	color: black;
+}
+.login-content .form .password_con {
+	height: 31px;
+    line-height: 31px;
+    margin-top: 20px;
+    width: 515px;
+}
+.login-content .form .password_con .password_login {
+	width: 240px;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    font-size: 12px;
+}
+.password_con .password_login .label_p {
+	width: 140px;  
+    text-align: right;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+.password_con .password_login .btn-entry {
+	text-align: center;
+	display: inline-block;
+    width: 85px;
+    height: 31px;
+    background-color: #fc4c65;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 31px;
+    font-family: "微软雅黑";
+}
+
+
+
+.login-content .guide {
+	float: left;
+    width: 300px;
+    padding: 0px 0px 15px 62px;
+    border-left: 1px dashed #E7E7E7;
+}
+.guide h5 {
+	font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.guide .content {
+	color: #666;
+    padding: 25px 0 0;
+}
+.guide .btn-personal {
+	text-align: center;
+	display: block;
+	width: 137px;
+    height: 31px;
+    background-color: #fc4c65;
+    line-height: 31px;
+    margin: 39px 0 0px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}

@@ -1,0 +1,149 @@
+@charset "utf-8";
+.container .header-wrapper {
+	border-bottom: 3px solid #fc4c65;
+	height: 186px;
+}
+
+/*注册*/
+.container .register {
+	width: 982px;
+    border: 1px solid #666666;
+    margin: 40px auto 20px auto;
+}
+.register .register-title {
+	height: 37px;
+    border-bottom: 1px solid #666666;
+    background: #e6e6e6;
+    padding-left: 15px;
+}
+.register-title .title_l {
+	float: left;
+	line-height: 37px;
+    font-size: 16px;
+    color: #444444;
+    font-weight: bold;
+}
+.register-title .title-r {
+	float: right;
+}
+.register-title .title-r p {
+	 text-align: center;
+    line-height: 37px;
+}
+.register-title .title-r p a {
+	margin: 0 5px;
+    background-color: #fc4c65;
+    padding: 3px 7px;
+    color: #fff;
+}
+
+/*注册详情内容*/
+.register .register-content {
+	padding: 40px 40px 25px;
+    width: 910px;
+}
+.register-content .tag {
+	height: 28px;
+	border-bottom: 1px solid #000;
+}
+.register-content .tag a {
+	width: 116px;
+	display: block;
+}
+.register-content .info h2 {
+	float: left;
+	width: 140px;
+}
+.register-content .info .info-wrap {
+	width: 535px;
+	height: 460px;
+    float: left;
+}
+.info-wrap .empty {
+	padding: 35px 0 0 0;
+	margin-bottom: 5px;
+}
+.info-wrap .gray {
+	height: 26px;
+    line-height: 26px;
+	padding: 20px 0px 0px 24px;
+}   
+.info-wrap .gray label,.info-wrap .gray input,.info-wrap .gray .error,.info-wrap .gray img  {
+	float: left;
+}
+.info-wrap .gray label {
+	width: 110px;
+	height: 26px;
+	text-align: left;
+    line-height: 26px;
+    font: 14px/26px 'Microsoft YaHei', Arial;
+}
+.info-wrap .gray label .spanAlert {
+	color: #ff1200;
+    padding-right: 4px;
+}
+.info-wrap .gray input {
+	width: 200px;
+	height: 24px;
+    line-height: 24px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    padding: 0 3px 0 3px;
+    margin-right: 5px;
+    outline: none;
+    font: 14px/26px 'Microsoft YaHei', Arial;
+}
+.info-wrap .gray .error {
+	float: left;
+	color: #ff1200;
+	font: 14px/26px 'Microsoft YaHei', Arial;
+}
+.info-wrap #verify .error {
+	width: 60px;
+	float: left;
+	color: #ff1200;
+	font: 14px/26px 'Microsoft YaHei', Arial;
+}
+.info-wrap .gray img {
+	margin-top: 2px;
+	display: none;
+}
+.info-wrap .gray a img {
+	display: block;
+}
+.info-wrap .gray .verify {
+	width: 100px;
+	height: 24px;
+    line-height: 24px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    padding: 0 3px 0 3px;
+    margin-right: 5px;
+    outline: none;
+    font: 14px/26px 'Microsoft YaHei', Arial;
+}
+.info-wrap .gray .verification-code {
+	letter-spacing: 4px;
+	background-color: #EEEEEE;
+	padding: 0 5px;
+	float: left;
+	font: 14px/26px 'Microsoft YaHei', Arial;
+}
+.info-wrap .gray .btn {
+	width: 89px;
+	display: block;
+	margin: 0 10px;
+	color: white;	
+	background-color: #6EC510;
+	padding: 0 5px;
+	float: left;
+	font: 12px/26px 'Microsoft YaHei', Arial;
+}.info .btn {
+	margin: 30px 0 0 134px;
+	cursor: pointer;
+    width: 127px;
+    text-align: center;
+    background-color: #fc4c65;
+    color: white;
+    font: 14px/26px 'Microsoft YaHei', Arial;
+}

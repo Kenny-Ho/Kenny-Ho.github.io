@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register-nav.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<!--load过来的头部和导航-->
+			<div class="header-wrapper">
+				
+			</div>
+			
+			<div class="register">
+				<div class="register-title">
+					<h1 class="title_l">注册新用户</h1>
+					<div class="title-r">
+						<p>我已经注册，现在就
+							<a href="index.html">登录</a>                   
+                		</p>
+					</div>
+				</div>
+				<div class="register-content">
+					<div class="tag">
+						<a href="javascript:;">
+							<img src="img/phone.gif">
+						</a>
+					</div>
+					<div class="info clearfix">
+						<h2>&nbsp;</h2>
+						<div class="info-wrap">
+							<form action="index.html" method="post" id="login" name="login">
+								<div class="empty"></div>
+								<div class="gray clearfix">
+									<label>
+										<span class="spanAlert">*</span>手机号码：
+									</label>
+									<input type="text" name="username" class="required mobile" placeholder="请输入手机号码"/>
+																		
+									<img class="img1" src="img/xbTure20.gif"/>									
+								</div>	
+								<div class="gray clearfix" id="verify">
+									<label for="">
+										<span class="spanAlert">*</span>验证码：
+									</label>
+									<input name="verify" type="text" class="verify required equaTo1" equaToy=".verification-code" placeholder="验证码"/>									 
+									<img class="img2" src="img/xbTure20.gif"/>
+									<div class="verification-code"></div>
+									<a href="javascript:;" class="btn">看不清，换一张</a>
+								</div>
+								<div class="gray clearfix">
+									<label for=""></label>
+									<a href="javascript:;">
+										<img src="img/messagecode.gif"/>
+									</a>								
+								</div>
+								<div class="gray clearfix">
+									<label>
+										<span class="spanAlert">*</span>手机验证码：
+									</label>
+									<input type="text" name="verify-code" class="mobile-verify required" placeholder="请输入手机验证码"/>
+									
+									<img class="img3" src="img/xbTure20.gif"/>									
+								</div>
+								<div class="gray clearfix">
+									<label>
+										<span class="spanAlert">*</span>设定登录密码：
+									</label>
+									<input type="password" name="pwd" class="required checkPsw"  placeholder="请输入密码"/>
+									
+									<img class="img4" src="img/xbTure20.gif"/>									
+								</div>
+								<div class="gray clearfix">
+									<label>
+										<span class="spanAlert">*</span>再次输入密码：
+									</label>
+									<input type="password" name="verify-pwd" class="verify-pwd required equaTo2" equalTo=".checkPsw" placeholder="请再次输入密码"/>
+									
+									<img class="img5" src="img/xbTure20.gif"/>									
+								</div>
+								
+								<button type="submit" class="btn">注册</button>	
+							</form>
+												
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--load过来的底部-->
+			<div class="footer-wrapper">
+				
+			</div>			
+		</div>
+		
+		<script src="js/jquery.1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/validate_tip.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript">
+			//自动验证
+			$("#login").validate({
+				//console.log($("#login").form());
+				submitHandler: function() {
+					$('#login .btn').click(function(){
+						//储存用户名和密码
+						$.cookie('mobile',$('#login .mobile').val(),{expires:7,path:'/'});
+						$.cookie('password',$('#login .verify-pwd').val(),{expires:7,path:'/'});
+						
+						if($(confirm("注册成功是否立即登录"))){
+							location.href = "login.html";
+						}
+					});
+				}
+			});
+			//http://www.51xuediannao.com/js/jquery/jquery_validate
+		</script>
+	</body>
+</html>

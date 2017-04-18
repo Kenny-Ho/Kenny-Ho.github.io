@@ -1,0 +1,224 @@
+@charset "utf-8";
+/*<!--footer部分-->*/
+.container .footer {
+	width: 100%;
+	background-color: #efefef;
+	padding: 25px 0;
+	margin-top: 50px;
+}
+.footer .footer-wrap {
+	padding-left: 52px;
+}
+.footer-wrap .footer-phone {
+	float: left;
+	margin-right: 116px;
+}
+
+.footer-wrap .footer-phone .phone-icon {
+	float: left;
+	margin: 2px 0 0 20px;
+	width: 65px;
+	height: 65px;
+	background: url(../img/index_icon.png) -98px -65px;
+}
+.footer-wrap .footer-phone .phone-content {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+.footer-phone .phone-content h3 {
+	font-size: 16px;
+    color: #595757;
+    height: 30px;
+    line-height: 30px;
+}
+.footer-phone .phone-content h3 a {
+	font-size: 17px;
+    color: #595757;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "黑体";
+}
+.footer-phone .phone-content p {
+	font-size: 12px;
+    color: #595757;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+.footer-wrap .footer-tel {
+	float: left;
+	margin-right: 116px;
+}
+
+.footer-wrap .footer-tel .tel-icon {
+	float: left;
+	margin: 2px 0 0 20px;
+	width: 65px;
+	height: 65px;
+	background: url(../img/index_icon.png) -98px -130px;
+}
+.footer-wrap .footer-tel .tel-content {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+.footer-tel .tel-content h3 {
+	font-size: 16px;
+    color: #595757;
+    height: 30px;
+    line-height: 30px;
+}
+.footer-tel .tel-content h3 a {
+	font-size: 17px;
+    color: #595757;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "黑体";
+}
+.footer-tel .tel-content p {
+	font-size: 12px;
+    color: #595757;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+
+.footer-wrap .footer-qq {
+	float: left;
+	margin-right: 116px;
+}
+
+.footer-wrap .footer-qq .qq-icon {
+	float: left;
+	margin: 2px 0 0 20px;
+	width: 65px;
+	height: 65px;
+	background: url(../img/index_icon.png) -98px -195px;
+}
+.footer-wrap .footer-qq .qq-content {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+.footer-qq .qq-content h3 {
+	font-size: 16px;
+    color: #595757;
+    height: 30px;
+    line-height: 30px;
+}
+.footer-qq .qq-content h3 a {
+	font-size: 17px;
+    color: #595757;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "黑体";
+}
+.footer-qq .qq-content p {
+	font-size: 12px;
+    color: #595757;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+/*footer2*/
+.container .help-link {
+	background-color: #fff;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.help-link .FSIntro,.help-link dl {
+	float: left;
+}	
+.help-link .FSIntro {
+	width: 418px;
+	margin-right: 50px;
+}
+.help-link .FSIntro img {
+	float: left;
+	height: 122px;
+	margin-right: 10px;
+}
+.help-link .FSIntro h4 {
+	font-size: 15px;
+    font-weight: bold;
+    color: #fd3502;
+    height: 30px;
+    line-height: 30px;
+}
+.help-link .FSIntro p {
+	line-height: 24px;
+    font-family: 'Microsoft YaHei';
+    font-size: 13px;
+}
+
+.help-link dl {
+	margin-right: 4px;
+}
+.help-link dl dt {
+	font-size: 16px;
+    font-family: 黑体;
+    line-height: 30px;
+    width: 118px;
+    -text-overflow: ellipsis;
+   	-white-space: nowrap;
+    font-weight: 700;
+    -overflow: hidden;
+} 
+.help-link dl dd {
+	line-height: 24px;
+    width: 118px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}   
+.help-link dl dd a {
+	color: #777;
+}
+.help-link dl dd a:hover {
+	color: #fc4c65;;
+}
+   
+   
+/*<!--set-link-->*/    
+.container .set-link {
+	background-color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+.container .set-link p {
+	text-align: center;
+    line-height: 36px;
+    height: 36px;
+    margin: 20px auto;
+}
+.container .set-link p a {
+	margin: 0 20px;
+	font-size: 14px;
+}
+.container .set-link p a:hover {
+	color: #E2051B;
+}
+.container .set-link p a img {
+	display: inherit;
+}
+
+
+/*<!--底部-->*/
+.container .bottom {
+	text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f12e24;
+    color: #fff;
+}

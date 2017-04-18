@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*头部*/
+.container .header{
+	border-bottom: 1px solid rgb(221, 221, 221);
+	background-color: #eee;
+}
+.header .header-content{
+	line-height: 30px;
+	height: 30px;
+}
+/*头部内容*/
+.header .header-content dl{
+	float: right;
+}
+.header .header-content dl dt{
+	-background: transparent url('../img/tline.gif') no-repeat scroll right center;
+	background: url(../img/tline.gif) no-repeat right center;
+	float: left;
+}
+.header .header-content dl dd{
+	position: relative;
+	float: left;
+}
+.header .header-content dl dt a{
+	margin-right: 12px;
+}
+.header .header-content dl dd a{
+	display: inline-block;
+	margin-left: 12px;
+}
+.header .header-content dl dd i{
+	position: absolute;
+	top: 15px;
+	right: 0;
+	float: left;
+	width: 7px;
+	height: 4px;
+	float: right;
+	display: block;
+	background: url(../img/tico.gif) no-repeat 0 0;
+}
+.header .header-content .icon{
+	position: relative;
+	padding-right: 8px;
+}
+/*二级导航*/
+.header .header-content .second-header{
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 80px;
+	background-color: #eee;
+	z-index: 1;
+}
+
+.header .header-content .second-header li{
+	-padding: 0 10px;
+}
+.header .header-content .second-header li a{
+	text-align: center;
+}
+
+/*导航*/
+.nav{
+	
+	
+}
+.nav .logo{
+	width: 100%;
+	height: 122px;
+}
+.nav .logo-l,.nav .logo-l ul li,.nav .logo-c,.nav .kuaidi,.nav .logo-c dt,.nav .logo-c dd,
+.nav .logo-c p{
+	float: left;
+}
+.nav .logo .logo-l{
+	width: 393px;	
+}
+.nav .logo .logo-l ul{
+	width: 100%;
+	margin-top: 30px;
+}
+.nav .logo-l ul li+li{
+	width: 120px;
+	height: 26px;
+	margin-top: 21px;
+	margin-left: 10px;
+}
+.nav .logo-l ul li+li img{
+	margin-top: -23px;
+	margin-left: 50px;
+}
+
